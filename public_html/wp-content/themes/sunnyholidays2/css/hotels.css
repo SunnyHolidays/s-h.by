@@ -1,0 +1,69 @@
+input[type='checkbox']{
+    height: auto!important;
+}
+input,select{
+    border-radius: 0!important;
+    height: 32px!important;
+    font-family: 'pt sans Caption',sans-serif!important;
+}
+.hcsb_searchButton{
+    font-family: 'pt sans Caption',sans-serif!important;
+    background: linear-gradient(to bottom, #F99926 0%, #FF6701 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: 1px solid #FFAC48!important;
+    border-radius: 5px!important;
+    font-weight: normal!important;
+    height: 30px!important;
+    line-height: 30px!important;
+    margin: 22px 0 0!important;
+    padding: 0 40px!important;
+    text-shadow: none!important;
+}
+input:hover,select:hover{
+    border-color: #7eb4ea!important;
+}
+.hcsb_citySearch{
+    width: 98%!important;
+    padding: 0 5px!important;
+}
+.hcsb_checkinDay,.hcsb_checkoutDay{
+    margin-right: 5px!important;
+    min-width: 72px!important;
+}
+label{
+    padding-bottom: 3px!important;
+}
+.hcsb_citySearchWrapper,.hcsb_noDatesWrapper{
+    padding-bottom: 7px!important;
+}
+.hcsb_noDatesWrapper{padding-top: 7px!important;}
+
+.hcsb_content{
+    padding:0!important;
+}
+.hcsb_outer {
+    padding: 16px!important;
+}
+.hcsb_topTitle{
+display: none!important;
+}
+.hcsb_extend{
+    left: 490px!important;
+}
+.hcsb_checkinDay,.hcsb_checkoutDay{
+    width: 30%;
+}
+.hcsb_checkoutMonth,.hcsb_checkinMonth{
+    width:57%;
+}
+.hcsb_checkinDateWrapper,.hcsb_guestsRoomsWrapper{
+    float: left!important;
+    width: 48%!important;
+}
+.hcsb_checkoutDateWrapper{
+    width: 48%!important;
+    float: right!important;
+}
+.hcsb_guests{
+    width: 100%!important;
+
+}

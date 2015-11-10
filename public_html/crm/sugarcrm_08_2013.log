@@ -1,0 +1,20 @@
+Tue Aug 13 06:22:01 2013 [565826][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Tue Aug 13 06:23:01 2013 [566329][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Mon Aug 19 12:02:05 2013 [118315][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Aug 19 12:02:05 2013 [118318][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Aug 19 12:02:05 2013 [118357][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Aug 19 12:02:06 2013 [118361][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Aug 19 12:02:06 2013 [118373][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Aug 22 17:08:07 2013 [806178][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.150.163 CLIENT IP: 37.212.201.88
+Sun Aug 25 12:19:02 2013 [863732][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Sun Aug 25 16:16:43 2013 [67239][-none-][FATAL] SECURITY: The session ID is invalid
+Sun Aug 25 16:16:44 2013 [67241][-none-][FATAL] SECURITY: The session ID is invalid
+Sun Aug 25 16:16:44 2013 [67245][-none-][FATAL] SECURITY: The session ID is invalid
+Sun Aug 25 16:16:44 2013 [67259][-none-][FATAL] SECURITY: The session ID is invalid
+Sun Aug 25 16:16:44 2013 [67262][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Aug 26 14:39:19 2013 [185210][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.213.198.207 CLIENT IP: 37.45.129.95
+Thu Aug 29 00:47:26 2013 [400262][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Aug 29 00:47:27 2013 [400264][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Aug 29 00:47:27 2013 [400266][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Aug 29 00:47:27 2013 [400271][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Aug 29 00:47:27 2013 [400272][-none-][FATAL] SECURITY: The session ID is invalid

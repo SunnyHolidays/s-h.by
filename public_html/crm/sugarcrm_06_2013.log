@@ -1,0 +1,17 @@
+Thu Jun  6 13:27:58 2013 [392305][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.26.200 CLIENT IP: 37.45.56.39
+Sat Jun  8 10:44:58 2013 [280876][-none-][FATAL] SECURITY: User authentication for alena failed
+Sat Jun  8 10:44:58 2013 [280876][-none-][FATAL] FAILED LOGIN:attempts[1] - alena
+Tue Jun 11 03:26:02 2013 [29110][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Tue Jun 11 03:29:02 2013 [32350][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Tue Jun 11 18:04:50 2013 [712797][671bb584-a98a-0e19-93b8-50f953616c38][FATAL] IP Address mismatch: SESSION IP: 82.209.219.132 CLIENT IP: 37.212.209.29
+Wed Jun 12 13:52:38 2013 [593511][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.59.156 CLIENT IP: 37.45.121.88
+Fri Jun 14 22:09:08 2013 [912498][671bb584-a98a-0e19-93b8-50f953616c38][FATAL] SUGAREMAILADDRESS: address did not validate [ allapopova 1968@mail.ru ]
+Fri Jun 14 22:09:09 2013 [912547][671bb584-a98a-0e19-93b8-50f953616c38][FATAL] SUGAREMAILADDRESS: address did not validate [ allapopova 1968@mail.ru ]
+Sat Jun 15 18:57:35 2013 [1018684][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 93.84.51.218 CLIENT IP: 93.84.4.151
+Wed Jun 19 10:55:02 2013 [352612][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Sat Jun 22 03:26:01 2013 [209208][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Thu Jun 27 23:32:22 2013 [712034][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Jun 27 23:32:27 2013 [712149][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Jun 27 23:32:33 2013 [712266][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Jun 27 23:32:38 2013 [712550][-none-][FATAL] SECURITY: The session ID is invalid
+Thu Jun 27 23:32:39 2013 [712566][-none-][FATAL] SECURITY: The session ID is invalid

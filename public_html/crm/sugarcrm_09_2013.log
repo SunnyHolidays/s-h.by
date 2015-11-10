@@ -1,0 +1,7 @@
+Mon Sep  9 15:43:16 2013 [144956][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Sep  9 15:43:16 2013 [144959][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Sep  9 15:43:17 2013 [144961][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Sep  9 15:43:17 2013 [144963][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Sep  9 15:43:17 2013 [144965][-none-][FATAL] SECURITY: The session ID is invalid
+Mon Sep  9 22:23:11 2013 [519718][-none-][FATAL] SECURITY: User authentication for ira failed
+Mon Sep  9 22:23:11 2013 [519718][-none-][FATAL] FAILED LOGIN:attempts[1] - ira

@@ -1,0 +1,83 @@
+ *{
+     margin:0;
+     padding:0;
+ }
+ #form{
+     width: 680px;
+     height: 850px;
+     margin:0 auto;
+ }
+ #form h1{
+     font-size:30px;
+     padding:5px 0 10px 5px;
+ }
+ .subform{
+     margin-top:15px;
+     background: url("../images/widget-footer-bg.gif") repeat scroll 50% 0 #D1D1D1;
+     border: 1px solid #C1C1C1;
+     padding: 10px;
+ }
+
+.subform table{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+}
+.subform td{ 
+	padding: 2px;
+}
+.subform input{
+    height:15px;
+}
+#cb-table{
+    display:none;
+}
+.cbset td{
+    width:33%;
+}
+.cbset .ui-widget{
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 8px;
+}
+.cbset .ui-button{
+    margin:0 5px 0 0 !important;
+}
+#contact tr{
+    height:30px;
+}
+
+.ui-corner-all, .ui-corner-left, .ui-corner-right {
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	border-top-left-radius: 0px !important;
+}
+
+#children-birthday .ui-corner-all, #children_number_container .ui-corner-all{
+	background: none;
+	border: 0px;
+}
+
+#children-birthday input.ui-spinner-input, #children_number_container input.ui-spinner-input {
+	margin: 0px;
+}
+.cbset label {
+	background-image: none !important;
+	border: 0px !important;
+}
+
+td small, div small { color: red;}
+.notes{width: 210px; float: right; margin-top:10px;}
+
+.cbset label {width: 23px; height: 18px;}
+
+.ui-slider-handle {
+	background-image: none !important;
+	background-color: #edad69 !important;
+	}
+
+.error-form {color: red; display: none; margin-top: 5px;}

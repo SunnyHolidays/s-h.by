@@ -1,0 +1,103 @@
+Sat Feb  2 19:07:41 2013 [918132][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.95.249 CLIENT IP: 93.84.18.246
+Sun Feb  3 12:31:35 2013 [639079][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 93.84.18.246 CLIENT IP: 93.84.11.160
+Sun Feb  3 17:34:20 2013 [977394][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.32.193 CLIENT IP: 93.84.178.126
+Mon Feb  4 14:04:14 2013 [248974][-none-][FATAL] SECURITY: User authentication for ira failed
+Mon Feb  4 14:04:14 2013 [248974][-none-][FATAL] FAILED LOGIN:attempts[1] - ira
+Mon Feb  4 18:20:25 2013 [573952][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 11:59:57 2013 [760783][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 12:51:13 2013 [867894][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 19:24:55 2013 [652531][1][FATAL] IP Address mismatch: SESSION IP: 82.209.219.132 CLIENT IP: 93.84.11.160
+Wed Feb  6 14:09:23 2013 [635533][-none-][FATAL] SECURITY: User authentication for ira failed
+Wed Feb  6 14:09:23 2013 [635533][-none-][FATAL] FAILED LOGIN:attempts[1] - ira
+Wed Feb  6 14:09:27 2013 [635725][-none-][FATAL] SECURITY: User authentication for ira failed
+Wed Feb  6 14:09:27 2013 [635725][-none-][FATAL] FAILED LOGIN:attempts[2] - ira
+Wed Feb  6 14:29:35 2013 [680232][671bb584-a98a-0e19-93b8-50f953616c38][FATAL] Error running count query for Opportunity List:  Query Failed:  SELECT count(*) c FROM opportunities   LEFT JOIN  users jt0 ON opportunities.modified_user_id=jt0.id AND jt0.deleted=0
+
+ AND jt0.deleted=0  LEFT JOIN  users jt1 ON opportunities.created_by=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0  LEFT JOIN  users jt2 ON opportunities.assigned_user_id=jt2.id AND jt2.deleted=0
+
+ AND jt2.deleted=0  LEFT JOIN  accounts_opportunities jtl3 ON opportunities.id=jtl3.opportunity_id AND jtl3.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl3.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  campaigns jt4 ON opportunities.campaign_id=jt4.id AND jt4.deleted=0
+
+ AND jt4.deleted=0  LEFT JOIN  users jt5 ON opportunities.modified_user_id=jt5.id AND jt5.deleted=0
+
+ AND jt5.deleted=0 where (opportunities_cstm.next_step_date_c <= "2013-02-06" and opportunities.sales_stage not like "Closed%") AND opportunities.deleted=0: MySQL error 1054: Unknown column 'opportunities_cstm.next_step_date_c' in 'where clause'
+Wed Feb  6 21:53:32 2013 [658243][1][FATAL] IP Address mismatch: SESSION IP: 82.209.219.132 CLIENT IP: 93.84.55.188
+Thu Feb  7 15:32:46 2013 [753039][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 15:33:05 2013 [753721][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 22:07:45 2013 [916344][1][FATAL] IP Address mismatch: SESSION IP: 213.48.16.97 CLIENT IP: 2.217.79.183
+Sat Feb  9 15:16:59 2013 [818434][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.62.26 CLIENT IP: 37.45.104.15
+Sat Feb  9 15:46:14 2013 [974574][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.104.15 CLIENT IP: 37.45.59.61
+Sat Feb  9 18:24:55 2013 [349973][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.59.61 CLIENT IP: 37.45.77.147
+Sat Feb  9 18:27:10 2013 [353493][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.77.147 CLIENT IP: 37.45.150.130
+Sat Feb  9 18:42:49 2013 [390471][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.150.130 CLIENT IP: 37.45.23.102
+Tue Feb 12 22:05:11 2013 [199157][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 213.48.16.97 CLIENT IP: 2.217.79.183
+Tue Feb 12 22:05:11 2013 [199156][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 213.48.16.97 CLIENT IP: 2.217.79.183
+Wed Feb 13 21:33:54 2013 [298073][-none-][FATAL] FAILED LOGIN:attempts[1] - vlad
+Wed Feb 13 23:08:18 2013 [504441][1][FATAL] IP Address mismatch: SESSION IP: 213.48.16.97 CLIENT IP: 2.98.149.106
+Wed Feb 13 23:08:21 2013 [504481][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 2.217.79.183 CLIENT IP: 2.98.149.106
+Thu Feb 14 14:59:59 2013 [435776][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb 14 15:01:02 2013 [438492][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb 14 15:01:48 2013 [440002][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb 14 20:46:13 2013 [337478][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.212.212.183 CLIENT IP: 37.45.159.44
+Thu Feb 14 22:15:43 2013 [429184][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 213.48.16.97 CLIENT IP: 2.98.149.106
+Fri Feb 15 15:53:48 2013 [536683][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb 15 16:06:36 2013 [556041][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb 15 22:48:25 2013 [537865][1][FATAL] IP Address mismatch: SESSION IP: 213.48.16.97 CLIENT IP: 2.98.149.106
+Sat Feb 16 18:30:25 2013 [11844][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.208.200 CLIENT IP: 37.45.197.145
+Sat Feb 16 23:47:56 2013 [700680][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.65.85 CLIENT IP: 93.84.58.240
+Mon Feb 18 10:18:26 2013 [584229][-none-][FATAL] SECURITY: User authentication for alena failed
+Mon Feb 18 10:18:26 2013 [584229][-none-][FATAL] FAILED LOGIN:attempts[1] - alena
+Mon Feb 18 10:57:42 2013 [625271][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 93.84.58.240 CLIENT IP: 37.45.206.202
+Mon Feb 18 12:43:32 2013 [770148][-none-][FATAL] SECURITY: User authentication for alena failed
+Mon Feb 18 12:43:32 2013 [770148][-none-][FATAL] FAILED LOGIN:attempts[1] - alena
+Mon Feb 18 12:44:08 2013 [770492][-none-][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Mon Feb 18 12:44:08 2013 [770492][-none-][FATAL] SugarPHPMailer encountered an error: The following From address failed: no-reply@sunnyholidays.by
+Mon Feb 18 12:44:31 2013 [770920][-none-][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Mon Feb 18 12:44:31 2013 [770920][-none-][FATAL] SugarPHPMailer encountered an error: The following From address failed: no-reply@sunnyholidays.by
+Mon Feb 18 12:46:10 2013 [772482][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Mon Feb 18 12:46:10 2013 [772482][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: alena@sunnyholidays.by
+Mon Feb 18 20:53:34 2013 [337301][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb 18 20:54:02 2013 [337696][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 19 12:33:36 2013 [272454][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 111 Reply: Connection refused 
+Tue Feb 19 12:33:36 2013 [272454][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] SugarPHPMailer encountered an error: The following From address failed: irina@sunnyholidays.by
+Tue Feb 19 12:33:36 2013 [272454][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] Notifications: error sending e-mail (method: smtp), (error: The following From address failed: irina@sunnyholidays.by)
+Tue Feb 19 14:48:10 2013 [527053][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.226.242 CLIENT IP: 37.45.214.176
+Tue Feb 19 15:11:42 2013 [579599][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 19 15:13:18 2013 [581869][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 19 21:51:08 2013 [18695][1][FATAL] IP Address mismatch: SESSION IP: 213.48.16.97 CLIENT IP: 2.98.149.106
+Wed Feb 20 12:13:45 2013 [800867][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb 20 12:14:05 2013 [801201][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb 20 15:00:20 2013 [1027862][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb 20 20:56:32 2013 [470887][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.127.128 CLIENT IP: 37.45.236.182
+Wed Feb 20 21:33:51 2013 [517094][-none-][FATAL] SECURITY: User authentication for alena failed
+Wed Feb 20 21:33:51 2013 [517094][-none-][FATAL] FAILED LOGIN:attempts[1] - alena
+Thu Feb 21 11:30:54 2013 [256219][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.16.188 CLIENT IP: 37.45.148.105
+Thu Feb 21 17:08:13 2013 [742460][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb 21 17:16:28 2013 [753200][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb 22 16:13:02 2013 [992901][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Sat Feb 23 18:40:38 2013 [478604][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.35.220 CLIENT IP: 37.45.64.165
+Sat Feb 23 21:21:47 2013 [646183][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.36.99 CLIENT IP: 37.45.15.93
+Sun Feb 24 23:57:02 2013 [231173][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 93.84.52.93 CLIENT IP: 93.84.22.253
+Mon Feb 25 11:01:05 2013 [808204][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.64.165 CLIENT IP: 37.45.183.170
+Mon Feb 25 19:22:59 2013 [657312][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb 25 19:26:15 2013 [660678][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb 25 21:09:02 2013 [91840][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 00:22:01 2013 [548455][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 17:09:16 2013 [479501][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 17:10:04 2013 [480283][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 17:10:13 2013 [480456][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 17:10:42 2013 [480928][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 17:11:07 2013 [481312][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 17:11:12 2013 [481397][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb 26 17:11:35 2013 [481854][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb 27 03:26:02 2013 [13432][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Wed Feb 27 13:10:49 2013 [545382][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb 27 13:11:20 2013 [546032][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb 27 13:12:38 2013 [547339][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb 27 13:12:50 2013 [547563][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb 28 11:17:07 2013 [838650][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.171.120 CLIENT IP: 37.45.96.241
+Thu Feb 28 19:06:37 2013 [401370][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php

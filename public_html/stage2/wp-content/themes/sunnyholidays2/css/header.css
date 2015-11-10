@@ -1,0 +1,182 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background: #f2f2f2;
+    height: 100%;
+    font-family: "PT Sans", sans-serif;
+}
+.last-child{
+    padding-right: 0!important;
+}
+.padding-w-170 {
+    padding: 0 170px;
+    width: auto;
+    height: 100%;
+}
+
+.padding-w-120 {
+    margin: 0 120px;
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+
+#container {
+    overflow: hidden;
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 0 17px 0 #e3e3e2;
+
+}
+
+#header {
+    float: left;
+    min-height: 111px;
+    width: 100%;
+    background: #e6f3fb;
+    background: linear-gradient(to bottom, #e6f3fb 0%, #ffffff 100%);
+}
+
+#logo {
+    float: left;
+    width: 296px;
+    padding: 15px 33px 0 0;
+
+}
+
+#header .contacts {
+    width: 180px;
+    float: left;
+    padding: 33px 20px 18px 0;
+}
+
+#header .contacts img {
+    float: left;
+    padding-right: 10px;
+}
+
+#header .contacts p {
+    font-size: 14px;
+    padding-left: 11px;
+    font-weight: bold;
+    color: #5a5a5a;
+}
+
+#skype {
+    width: 180px;
+    float: left;
+    padding: 33px 20px 18px 0;
+}
+
+#skype img {
+    float: left;
+    padding-right: 10px;
+}
+
+#skype p {
+    font-size: 14px;
+    padding-left: 11px;
+
+}
+
+#header .address {
+
+    float: right;
+    padding: 33px 0 0 0;
+}
+
+#header .address p {
+    font-size: 14px;
+
+}
+
+#header .address a img {
+    vertical-align: text-bottom;
+    padding-right: 3px;
+    border: none;
+}
+
+#header .address a {
+    display: inline-block;
+    color: #0d4e74;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+#header p.title {
+    font-weight: bold;
+}
+
+#nav {
+    float: left;
+    min-height: 55px;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 3px -1px #000000;
+    border-top: 4px solid #f7941d;
+    position: relative;
+}
+
+#top-nav {
+    height: 100%;
+    width: auto;
+
+}
+
+#top-nav ul {
+
+    width: 570px;
+    padding-right: 142px;
+    height: 100%;
+    float: left;
+}
+
+#top-nav ul li {
+    padding: 0 16px 0 0;
+    line-height: 50px;
+    display: inline-block;
+}
+
+#top-nav ul li a {
+    font-family: "PT Sans Caption", sans-serif;
+    color: #0d4e74;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#top-nav ul li:last-child {
+    padding-right: 0;
+}
+
+#top-nav ul li.current_page_item a {
+    color: #f7941d;
+}
+
+.search {
+    line-height: 50px;
+    width: 228px;
+    float: left;
+    height: 100%
+}
+#top-nav .search-box{
+    margin:9px 0;
+}
+.search .search-box {
+
+    float: right;
+    font-family: "pt sans Caption", sans-serif;
+    font-size: 13px;
+    width: 188px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    height: 22px;
+    padding: 5px;
+    background: url('../img/search-box-background.png') 170px center no-repeat;
+}

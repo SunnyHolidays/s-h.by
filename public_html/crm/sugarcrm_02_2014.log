@@ -1,0 +1,12 @@
+Sat Feb  1 13:43:59 2014 [576697][-none-][FATAL] FAILED LOGIN:attempts[1] - 
+Sat Feb  1 13:44:11 2014 [576919][-none-][FATAL] SECURITY: User authentication for elena failed
+Sat Feb  1 13:44:11 2014 [576919][-none-][FATAL] FAILED LOGIN:attempts[2] - elena
+Sat Feb  1 15:55:36 2014 [809355][-none-][FATAL] SECURITY: User authentication for elena failed
+Sat Feb  1 15:55:36 2014 [809355][-none-][FATAL] FAILED LOGIN:attempts[1] - elena
+Sat Feb  1 16:08:30 2014 [829126][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Sat Feb  1 16:08:30 2014 [829126][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: sergey@sunnyholidays.by
+Sat Feb  1 16:08:30 2014 [829126][1][FATAL] Notifications: error sending e-mail (method: smtp), (error: The following From address failed: sergey@sunnyholidays.by)
+Tue Feb  4 19:17:33 2014 [561004][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.182.184 CLIENT IP: 37.45.93.206
+Sun Feb  9 10:43:20 2014 [656624][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.93.206 CLIENT IP: 37.45.9.14
+Mon Feb 10 19:15:37 2014 [917249][6d3e987b-bba8-c2c0-c231-50914e58a687][FATAL] IP Address mismatch: SESSION IP: 37.45.9.14 CLIENT IP: 37.45.139.214
+Wed Feb 19 13:00:16 2014 [326823][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.213.177.149 CLIENT IP: 37.45.147.134

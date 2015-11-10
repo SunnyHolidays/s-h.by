@@ -1,0 +1,64 @@
+ *{
+     margin:0;
+     padding:0;
+ }
+ #form{
+     width: 680px;
+     height: 850px;
+     margin:0 auto;
+ }
+ #form h1{
+     font-size:30px;
+     padding:5px 0 10px 5px;
+ }
+ .subform{
+     margin-top:15px;
+     border: 2px solid #000000;
+ }
+ .subform h2{
+     font-size: 11px;
+
+     margin-top:-11px;
+
+ }
+ .subform h2 span{
+     padding: 0 5px;
+     background: #ffffff no-repeat;
+ }
+.subform table{
+    width:90%;
+    margin: 10px 0 10px 10px;;
+}
+.subform input{
+    height:20px;
+}
+#cb-table{
+    border: 2px solid #000000;
+    display:none;
+}
+.cbset td{
+    width:33%;
+}
+.cbset .ui-widget{
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 8px;
+}
+.cbset .ui-button{
+    margin:0 5px 0 0 !important;
+}
+#contact tr{
+    height:30px;
+}
+#submit{
+    position: absolute;
+    margin:10px 50%;
+    left:-100px;
+    width:200px;
+    height:50px;
+    border-color:#000000;
+    border-radius: 0;
+}

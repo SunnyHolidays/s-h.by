@@ -1,0 +1,3 @@
+Fri Aug 17 10:44:37 2012 [492030][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Fri Aug 17 10:44:37 2012 [492030][1][FATAL] SugarPHPMailer encountered an error: SMTP Error: Could not connect to SMTP host.
+Fri Aug 17 10:44:37 2012 [492030][1][FATAL] SugarPHPMailer encountered an error: An outgoing mail server is not configured to send emails. Please configure an outgoing mail server or select an outgoing mail server for the mail account that you are using in Settings >> Mail Account.

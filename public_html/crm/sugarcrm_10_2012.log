@@ -1,0 +1,54 @@
+Mon Oct 22 10:24:23 2012 [990593][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 10:28:11 2012 [993176][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 10:29:16 2012 [993847][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 15:28:43 2012 [247918][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 15:28:47 2012 [247949][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 15:28:51 2012 [248015][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 15:28:57 2012 [248208][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 16:25:55 2012 [319377][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 16:26:19 2012 [320152][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 16:26:23 2012 [320249][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 16:26:29 2012 [320364][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 16:26:38 2012 [320490][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 16:44:51 2012 [340654][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 16:45:32 2012 [341666][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Mon Oct 22 18:23:51 2012 [423864][1][FATAL] IP Address mismatch: SESSION IP: 82.209.219.132 CLIENT IP: 93.84.45.39
+Mon Oct 22 18:24:42 2012 [424588][1][FATAL] Suhosin blocks all streams, please define upload stream in suhosin.executor.include.whitelist
+Wed Oct 31 19:11:32 2012 [119605][-none-][FATAL] SECURITY: User authentication for sergey failed
+Wed Oct 31 19:11:32 2012 [119605][-none-][FATAL] FAILED LOGIN:attempts[1] - sergey
+Wed Oct 31 19:11:38 2012 [119673][-none-][FATAL] SECURITY: User authentication for sergey failed
+Wed Oct 31 19:11:38 2012 [119673][-none-][FATAL] FAILED LOGIN:attempts[2] - sergey
+Wed Oct 31 19:11:48 2012 [119861][-none-][FATAL] SECURITY: User authentication for sergey failed
+Wed Oct 31 19:11:48 2012 [119861][-none-][FATAL] FAILED LOGIN:attempts[3] - sergey
+Wed Oct 31 19:11:57 2012 [119996][-none-][FATAL] SECURITY: User authentication for sergey failed
+Wed Oct 31 19:11:57 2012 [119996][-none-][FATAL] FAILED LOGIN:attempts[4] - sergey
+Wed Oct 31 19:13:27 2012 [122630][-none-][FATAL] SECURITY: User authentication for admin failed
+Wed Oct 31 19:13:27 2012 [122630][-none-][FATAL] FAILED LOGIN:attempts[5] - admin
+Wed Oct 31 19:13:32 2012 [122756][-none-][FATAL] SECURITY: User authentication for admin failed
+Wed Oct 31 19:13:32 2012 [122756][-none-][FATAL] FAILED LOGIN:attempts[6] - admin
+Wed Oct 31 19:14:06 2012 [123739][1][FATAL] project_resource for projects_contacts_resources failed to load
+
+Wed Oct 31 19:14:06 2012 [123739][1][FATAL] error loading relationship project_resource
+Wed Oct 31 19:14:06 2012 [123739][1][FATAL] project_resource for projects_contacts_resources failed to load
+
+Wed Oct 31 19:14:06 2012 [123739][1][FATAL] error loading relationship project_resource
+Wed Oct 31 19:19:13 2012 [130472][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Wed Oct 31 19:19:13 2012 [130472][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: elena@sunnyholidays.by
+Wed Oct 31 19:27:01 2012 [144456][-none-][FATAL] SECURITY: User authentication for lena failed
+Wed Oct 31 19:27:01 2012 [144456][-none-][FATAL] FAILED LOGIN:attempts[1] - lena
+Wed Oct 31 19:27:08 2012 [145063][-none-][FATAL] SECURITY: User authentication for lena failed
+Wed Oct 31 19:27:08 2012 [145063][-none-][FATAL] FAILED LOGIN:attempts[2] - lena
+Wed Oct 31 19:27:18 2012 [145224][-none-][FATAL] SECURITY: User authentication for sergey failed
+Wed Oct 31 19:27:18 2012 [145224][-none-][FATAL] FAILED LOGIN:attempts[3] - sergey
+Wed Oct 31 19:27:27 2012 [145448][-none-][FATAL] SECURITY: User authentication for sergey failed
+Wed Oct 31 19:27:27 2012 [145448][-none-][FATAL] FAILED LOGIN:attempts[4] - sergey
+Wed Oct 31 19:30:40 2012 [153086][-none-][FATAL] SECURITY: User authentication for lena failed
+Wed Oct 31 19:30:40 2012 [153086][-none-][FATAL] FAILED LOGIN:attempts[1] - lena
+Wed Oct 31 19:35:57 2012 [163546][-none-][FATAL] SECURITY: User authentication for lena failed
+Wed Oct 31 19:35:57 2012 [163546][-none-][FATAL] FAILED LOGIN:attempts[1] - lena
+Wed Oct 31 19:41:02 2012 [168306][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Wed Oct 31 19:41:02 2012 [168306][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: sergey@sunnyholidays.by
+Wed Oct 31 19:41:02 2012 [168306][1][FATAL] Notifications: error sending e-mail (method: smtp), (error: The following From address failed: sergey@sunnyholidays.by)
+Wed Oct 31 19:44:58 2012 [174211][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Wed Oct 31 19:44:58 2012 [174211][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: sergey@sunnyholidays.by
+Wed Oct 31 19:44:58 2012 [174211][1][FATAL] Notifications: error sending e-mail (method: smtp), (error: The following From address failed: sergey@sunnyholidays.by)

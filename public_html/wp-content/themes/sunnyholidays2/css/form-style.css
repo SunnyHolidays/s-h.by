@@ -1,0 +1,222 @@
+@import url('header.css');
+@import url('footer.css');
+
+#header p{
+    margin:0;
+}
+ #main {
+     color: #343434;
+     font-size:14px;
+     width: 100%;
+     height: auto;
+     float: left;
+     padding:10px 0;
+ }
+ input, select, textarea {
+     border: 1px solid #CACACA;
+     font-family: "pt sans Caption", sans-serif;
+     font-size: 13px;
+     vertical-align:middle;
+     font-weight:normal;
+     outline:none;
+ }
+ input[type="text"], textarea {
+     background:#ffffff;
+     padding:8px;
+ }
+ input[type="submit"], input[type="reset"] {
+     position:relative;
+     display:inline-block;
+     background: linear-gradient(to bottom, #F99926 0%, #FF6701 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+     border: 1px solid #FFAC48;
+     border-radius: 5px 5px 5px 5px;
+     color: #FFFFFF;
+     font-size: 14px;
+     padding: 0 10px;
+     height: 30px;
+     line-height: 30px;
+     text-decoration: none;
+ }
+ input[type="submit"]:hover, input[type="reset"]:hover {
+     background: linear-gradient(to bottom, #f97826 0%, #ff4601 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+     color:#fff;
+     border: 1px solid #CACACA;
+ }
+
+ .clear {
+     clear: both;
+     display: block;
+     overflow: hidden;
+     visibility: hidden;
+     width: 0;
+     height: 0;
+ }
+
+ #form{
+     float: left;
+     font-size: 15px;
+     width: 678px;
+     font-family: "pt sans", sans-serif;
+
+ }
+#form.full{
+    float: none;
+    margin: 0 auto;
+
+}
+ #form h1{
+     font-size:30px;
+     padding:5px 0 10px 5px;
+ }
+ .subform{
+     margin-top:15px;
+     background: #ffffff;
+     box-shadow: 0 0 17px 0 #E3E3E2;
+     padding: 10px;
+
+ }
+
+.subform table{
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+}
+.subform td{ 
+	padding: 2px;
+}
+.subform input{
+    height:15px;
+}
+#cb-table{
+    display:none;
+}
+.cbset td{
+    width:33%;
+}
+.cbset .ui-widget{
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 8px;
+}
+.cbset .ui-button{
+    margin:0 5px 0 0 !important;
+}
+#contact tr{
+    height:30px;
+}
+
+
+
+#children-birthday input.ui-spinner-input, #children_number_container input.ui-spinner-input {
+	margin: 0px;
+}
+.cbset label {
+	background-image: none !important;
+	border: 0px !important;
+}
+
+td small, div small {
+    margin-left: 2px;
+    color: red;
+    font-size: 100%;
+}
+.notes{width: 195px; float: right; font-size: 12px; margin-top:10px;}
+
+.cbset label {width: 23px; height: 18px;}
+
+
+
+.error-form {
+    color: red;
+    display: none;
+    margin-top: 5px;
+}
+
+.colored{
+    color:#F7941D;
+    font-weight:bold;
+    width: 210px;
+}
+input:hover, select:hover, textarea:hover,.ui-spinner:hover {
+    border: 1px solid #7eb4ea;
+}
+.chzn-choices:hover,.chzn-single:hover {
+    border: 1px solid #7eb4ea!important;
+}
+.ui-spinner{
+    border: 1px solid #CACACA;
+}
+.ui-spinner input {
+    color: #343434!important;
+}
+.ui-spinner-input:hover{
+    border:0;
+}
+#form h2{
+    font-size: 30px;
+    color: #eb6f00;
+    font-weight: normal;
+}
+.chzn-choices,.chzn-default,.chzn-drop{
+    border: 1px solid #CACACA!important;
+    background: #ffffff!important;
+    font-size: 13px;
+    font-family: "pt sans Caption",sans-serif !important;
+
+}
+.chzn-choices input,.chzn-default input{
+    font-family: "pt sans Caption",sans-serif!important;
+    font-size: 13px!important;
+    color:#c5c5c5!important;
+
+}
+.jqdate{
+    color: #343434;
+}
+.age{
+    font-size: 11px;
+}
+
+#sidebar-3 {
+    padding-left: 24px;
+    float: right;
+    width: 220px;
+
+}
+
+#sidebar-3 div:first-child {
+    padding-top: 10px;
+}
+
+#sidebar-3 h1 {
+    font-size: 16px;
+    font-family: "pt sans Caption", sans-serif;
+    color: #1697e5;
+    padding: 10px 0;
+}
+
+#sidebar-3 ul {
+    background: #f9f9f9;
+    padding: 0 15px;
+    list-style-image: url("../img/list-style-image.png");
+    list-style-position: inside;
+}
+
+#sidebar-3 ul li {
+    padding: 5px 0;
+}
+
+#sidebar-3 ul li a {
+
+    color: #0d4e74;
+    font-size: 14px;
+    font-family: "pt sans Caption", sans-serif;
+}
+
+#sidebar-3 ul li.current-cat a {
+    color: #fb8416;
+
+}

@@ -1,0 +1,14 @@
+Wed Nov  6 09:49:47 2013 [837158][671bb584-a98a-0e19-93b8-50f953616c38][FATAL] SUGAREMAILADDRESS: address did not validate [ vikasevko@mail/ru ]
+Wed Nov  6 09:49:47 2013 [837165][671bb584-a98a-0e19-93b8-50f953616c38][FATAL] SUGAREMAILADDRESS: address did not validate [ vikasevko@mail/ru ]
+Thu Nov  7 23:19:48 2013 [688258][1][FATAL] IP Address mismatch: SESSION IP: 82.209.219.132 CLIENT IP: 37.213.67.206
+Fri Nov 15 12:25:01 2013 [99724][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Mon Nov 18 10:32:49 2013 [439824][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.111.75 CLIENT IP: 37.45.71.128
+Mon Nov 18 18:13:56 2013 [908969][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.71.128 CLIENT IP: 37.45.122.158
+Mon Nov 25 22:58:37 2013 [665801][-none-][FATAL] FAILED LOGIN:attempts[1] - ira
+Tue Nov 26 13:31:46 2013 [446947][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Nov 26 13:31:46 2013 [446949][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Nov 26 13:31:46 2013 [446952][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Nov 26 13:31:47 2013 [446957][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Nov 26 13:31:47 2013 [446961][-none-][FATAL] SECURITY: The session ID is invalid
+Wed Nov 27 18:44:52 2013 [334035][-none-][FATAL] FAILED LOGIN:attempts[1] - ira
+Thu Nov 28 11:33:56 2013 [319339][84576838-73e2-3ede-557e-509cd29a92e5][FATAL] IP Address mismatch: SESSION IP: 37.45.127.209 CLIENT IP: 37.45.86.70

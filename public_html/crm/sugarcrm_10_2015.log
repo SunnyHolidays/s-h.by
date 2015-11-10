@@ -1,0 +1,5 @@
+Thu 08 Oct 2015 03:26:02 AM FET [277725][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Thu 08 Oct 2015 03:27:01 AM FET [283706][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Thu 08 Oct 2015 03:28:01 AM FET [295004][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Tue 27 Oct 2015 05:30:01 AM FET [421485][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)
+Tue 27 Oct 2015 05:31:01 AM FET [426599][-none-][FATAL] Could not connect to DB server localhost as sunnyhol_scrm1. port : Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)

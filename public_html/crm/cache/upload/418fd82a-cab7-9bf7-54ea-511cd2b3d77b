@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:my-scripts"><head>
+		<title>Система бронирования Megatec Master Web Standard :: Лист бронирования</title>
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<meta name="vs_showGrid" content="True">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="revisit-after" content="2 days">
+		<meta name="ROBOTS" content="ALL">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<style> BODY { FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans serif }
+	TD { FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans serif }
+	.text { FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans serif }
+		</style>
+	</head>
+	<body leftmargin="1" topmargin="0" bottommargin="0" rightmargin="0" bgcolor="#ffffff" marginheight="0" marginwidth="0">
+		<form name="PrintOrderForm" method="post" action="PrintOrder.aspx?dg_code=MO30049" id="PrintOrderForm">
+<div>
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQxOTAyNDg3M2RkDEz6nrYoagiIgNfCjghGhYvAz6w=" type="hidden">
+</div>
+
+			<p>
+				</p>
+			<p>
+				</p><div id="PContent">
+	
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ЛИСТ БРОНИРОВАНИЯ № MO30049</title>
+  
+  
+    <center>
+      <b>
+						ЛИСТ БРОНИРОВАНИЯ № MO30049</b>
+    </center>
+    <table align="center" border="0" cellpadding="5" cellspacing="0" width="80%">
+      <tbody><tr>
+        <td>
+          <b>1. Фирма-заказчик</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td width="10%">Фирма:</td>
+              <td width="40%">Санни Холидейз&nbsp;
+									</td>
+              <td width="10%">ФИО:</td>
+              <td width="40%">&nbsp;
+									</td>
+            </tr>
+            <tr>
+              <td width="10%">Адрес:</td>
+              <td width="40%">ул. Буденого, 48а, каб. 403&nbsp;</td>
+              <td width="10%">Телефон:</td>
+              <td width="40%">+375-152-72-00-22, 333-25-29-50&nbsp;
+									</td>
+            </tr>
+            <tr>
+              <td width="10%">E-mail:</td>
+              <td colspan="3">elena@sunnyholidays.by&nbsp;
+									</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td width="20%">
+                <b>
+                  <nobr>2. Номер бронирования</nobr>
+                </b>
+              </td>
+              <td>MO30049</td>
+              <td width="20%">
+                <b>3. Даты тура</b>
+              </td>
+              <td>
+										с&nbsp;07.08.2013&nbsp;по&nbsp;
+										17.08.2013</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>4. Название тура:&nbsp;</b>ЛЮТОВАЦ 2013  Раннее бронирование!</td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>
+                <b>5. Фамилия, Имя</b>
+              </td>
+              <td>
+										Номер загран-паспорта
+									</td>
+              <td>
+										Дата рождения
+									</td>
+              <td>
+										Пол
+									</td>
+            </tr>
+            <tr>
+              <td>AVDOSHINA&nbsp;
+												ANASTASIA</td>
+              <td>71&nbsp;№
+												3317633</td>
+              <td>26.12.1979&nbsp;
+										</td>
+              <td>жен.&nbsp;
+										</td>
+            </tr>
+            <tr>
+              <td>AVDOSHIN&nbsp;
+												ANDREY</td>
+              <td>71&nbsp;№
+												3214373</td>
+              <td>06.11.2003&nbsp;
+										</td>
+              <td>ребёнок&nbsp;
+										</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>6. Категория отелей:&nbsp;</b>cat.A (4*)</td>
+      </tr>
+      <tr>
+        <td>
+          <b>7. Размещение по маршруту тура</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Страна</td>
+              <td>Город</td>
+              <td>Дата заезда</td>
+              <td>Дата выезда</td>
+              <td>Отель</td>
+              <td>Кол-во ночей</td>
+              <td>Тип номера</td>
+              <td>Кол-во человек</td>
+              <td>Питание</td>
+            </tr>
+            <tr>
+              <td>ЧЕРНОГОРИЯ</td>
+              <td>БУДВА</td>
+              <td>07.08.2013</td>
+              <td>17.08.2013</td>
+              <td>VILLA LUTOVAC</td>
+              <td>10</td>
+              <td>APP&nbsp;
+												APARTMENT №4&nbsp;
+												1ADL+1CHD(2-18)</td>
+              <td>2</td>
+              <td>Без питания</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>8. Дополнительно оплаченные услуги</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Страховка::ЧЕРНОГОРИЯ/Медицинская страховка (50000 USD),10 дней/</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>9. Экскурсионная программа</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>10. Авиаперелеты</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Рейс</td>
+              <td>Дата вылета</td>
+              <td>Дата прилета</td>
+              <td>Время вылета</td>
+              <td>Кол-во человек</td>
+              <td>Маршрут</td>
+              <td>Аэропорт/вокзал</td>
+            </tr>
+            <tr>
+              <td>BRU8451</td>
+              <td>07.08.2013</td>
+              <td>07.08.2013</td>
+              <td>00:00&nbsp;
+										</td>
+              <td>2</td>
+              <td>МИНСК&nbsp;-&nbsp;
+											ПОДГОРИЦА</td>
+              <td>Минск-2&nbsp;
+										</td>
+            </tr>
+            <tr>
+              <td>BRU8452</td>
+              <td>17.08.2013</td>
+              <td>17.08.2013</td>
+              <td>00:00&nbsp;
+										</td>
+              <td>2</td>
+              <td>ПОДГОРИЦА&nbsp;-&nbsp;
+											МИНСК</td>
+              <td>Подгорица&nbsp;
+										</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>11. Трансферы по программе тура</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Переезд</td>
+              <td>Дата</td>
+              <td>Транспорт</td>
+            </tr>
+            <tr>
+              <td>АЭРОПОРТ-ОТЕЛЬ(ГРУППОВОЙ)&nbsp;
+										</td>
+              <td>07.08.2013</td>
+              <td>автобус</td>
+            </tr>
+            <tr>
+              <td>ОТЕЛЬ-АЭРОПОРТ(ГРУППОВОЙ)&nbsp;
+										</td>
+              <td>17.08.2013</td>
+              <td>автобус</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>12. Услуги, входящие в тур</b>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Проживание</td>
+              <td>Трансфер</td>
+              <td>Авиабилеты</td>
+              <td>Страховка</td>
+              <td>Виза</td>
+            </tr>
+            <tr>
+              <td align="center">+</td>
+              <td align="center">+</td>
+              <td align="center">+</td>
+              <td align="center">+</td>
+              <td align="center">-</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td colspan="2" width="50%">
+                <b>Ход бронирования</b>
+              </td>
+              <td colspan="2" width="50%">
+                <b>Отметки об оплате</b>
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2" colspan="2">
+										Тур забронирован.<br>
+										Просим внести предоплату до:&nbsp;14.02.2013</td>
+              <td>Полная стоимость услуг</td>
+              <td>1201&nbsp;EU</td>
+            </tr>
+            <tr>
+              <td>Комиссия&nbsp;</td>
+              <td>120&nbsp;EU</td>
+            </tr>
+            <tr>
+              <td width="25%">
+                <b>Дата бронирования</b>
+              </td>
+              <td>14.02.2013&nbsp;										
+									</td>
+              <td>К оплате</td>
+              <td>1081&nbsp;EU</td>
+            </tr>
+            <tr>
+              <td width="25%">
+                <b>Полная оплата до</b>
+              </td>
+              <td>17.02.2013&nbsp;
+									</td>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="25%">
+                <b>Менеджер</b>
+              </td>
+              <td>Сазонова&nbsp;
+										В.&nbsp;
+
+									</td>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="25%">
+                <b>Статус заказа</b>
+              </td>
+              <td>Web-турагент&nbsp;
+									</td>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+        </td>
+      </tr>
+    </tbody></table>
+  
+
+</div><p></p>
+		</form>
+	
+
+</body></html>

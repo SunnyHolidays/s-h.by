@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <countries>
+        <country value="Montenegro">Montenegro</country>
+        <country value="Russia">Russia</country>
+    </countries>
+    <departure>
+    	<from value="Любой">Любой</from>
+        <from value="Минск">Минск</from>
+		<from value="Москва">Москва</from>
+		<from value="Киев">Киев</from>
+		<from value="Львов">Львов</from>
+		<from value="Вильнюс">Вильнюс</from>
+		<from value="Варшава">Варшава</from>
+		<from value="Краков">Краков</from>
+		<from value="Берлин">Берлин</from>
+		<from value="Гданьск">Гданьск</from>
+		<from value="Быдгощ">Быдгощ</from>
+		<from value="Катовица">Катовица</from>
+		<from value="Люблин">Люблин</from>
+		<from value="Лодзь">Лодзь</from>
+		<from value="Познань">Познань</from>
+		<from value="Жешув">Жешув</from>
+		<from value="Щечин">Щечин</from>
+    </departure>
+    <food>
+        <type value="Все включено">Все включено</type>
+		<type value="Только завтраки">Только завтраки</type>
+		<type value="Двухразовое">Двухразовое</type>
+		<type value="Трехразовое">Трехразовое</type>
+    </food>
+</data>

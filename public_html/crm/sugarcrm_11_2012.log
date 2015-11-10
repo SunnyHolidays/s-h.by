@@ -1,0 +1,14 @@
+Fri Nov  9 12:19:19 2012 [863827][-none-][FATAL] SECURITY: User authentication for lena failed
+Fri Nov  9 12:19:19 2012 [863827][-none-][FATAL] FAILED LOGIN:attempts[1] - lena
+Fri Nov  9 12:21:01 2012 [883838][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Fri Nov  9 12:21:01 2012 [883838][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: sergey@sunnyholidays.by
+Fri Nov  9 12:22:58 2012 [885883][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Fri Nov  9 12:22:58 2012 [885883][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: sergey@sunnyholidays.by
+Fri Nov  9 12:26:54 2012 [889855][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Fri Nov  9 12:26:54 2012 [889855][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: sergey@sunnyholidays.by
+Fri Nov  9 13:07:42 2012 [928985][-none-][FATAL] FAILED LOGIN:attempts[1] - sergey
+Sat Nov 10 09:28:45 2012 [971671][1][FATAL] IP Address mismatch: SESSION IP: 37.17.113.147 CLIENT IP: 37.45.218.161
+Mon Nov 12 11:50:58 2012 [608812][1][FATAL] IP Address mismatch: SESSION IP: 37.45.218.161 CLIENT IP: 82.209.219.132
+Mon Nov 12 20:36:14 2012 [150350][1][FATAL] IP Address mismatch: SESSION IP: 82.209.219.132 CLIENT IP: 93.84.47.46
+Wed Nov 14 22:46:16 2012 [845174][1][FATAL] IP Address mismatch: SESSION IP: 82.209.219.132 CLIENT IP: 93.84.60.122
+Thu Nov 15 15:22:48 2012 [646566][1][FATAL] IP Address mismatch: SESSION IP: 93.84.60.122 CLIENT IP: 82.209.219.132

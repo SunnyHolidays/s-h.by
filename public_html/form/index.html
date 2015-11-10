@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/chosen.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" media="screen">
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/chosen.jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.9.1.custom.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#submit").on('click',function(){
+                childb = new Array();
+                $("#children-birthday input").each(function(){
+                    childb.push($(this).val());
+                });
+                checkbox = new Array();
+                $(".cbset input:checked").each(function(){
+                    checkbox.push($(this).attr("id"));
+                });
+                $.post("mail/index.php", {
+                            country: $("#form #country option:selected").val(),
+                            period_from: $("#form #period_from").val(),
+                            period_to: $("#form #period_to").val(),
+                            duration: $("#form #amount").val(),
+                            departure: $("#form #departure option:selected").val(),
+                            people: $("#form #people option:selected").val(),
+                            children_number: $("#form #children_number option:selected").val(),
+                            "children_birthday[]":childb,
+                            money_amount: $("#form #money-amount").val(),
+                            category: $("#form #category-val").val(),
+                            food: $("#form #food option:selected").val(),
+                            "checkbox[]": checkbox,
+                            name: $("#form #name").val(),
+                            mail: $("#form #mail").val(),
+                            phone: $("#form #phone").val(),
+                            subscribe: $("#form #subscribe:checked").attr("id")
+
+                        },
+                        function(data) {
+                            alert(data);
+
+                        });
+
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="form">
+        <h1>Заказать тур</h1>
+        <div class="subform">
+            <h2><span>Информация о туре</span></h2>
+            <table>
+                <tr>
+                    <td>Страна(курорт):</td>
+                    <td>
+                        <select name="country" id="country" data-placeholder="Выберите страну/курорт..." class="chzn-select" style="width:450px;" tabindex="2">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 115px;">Период с:</td>
+                    <td><input name="period_from" id="period_from" type="text" class="datepicker" /></td>
+                    <td>по:</td>
+                    <td><input name="period_to" id="period_to" type="text" class="datepicker" /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Продолжительность:<input type="text" name="amount" id="amount" style="margin-left:20px;border:0; color:#f6931f; font-weight:bold;" /></td>
+                </tr>
+                <tr>
+                    <td><div id="duration"></div></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Выезд/вылет из:</td>
+                    <td>
+                        <select data-placeholder="Выберите место..." class="chzn-select" id="departure" style="width:450px;" tabindex="1">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td style="width: 118px;">Взрослых:</td>
+                    <td>
+                        <select data-placeholder="Выберите количество..." class="chzn-select" id="people" name="people" style="width:170px;" tabindex="2">
+                            <option value="0"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                    <td style="width: 70px;">Детей:</td>
+                    <td>
+                        <select data-placeholder="Выберите количество..." class="chzn-select" id="children_number" name="children_number" style="width:170px;" tabindex="2">
+                            <option value="0"></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table id="cb-table">
+                <tr id="children-birthday">
+                    <td style="padding-left:10px;width:170px;">Даты рождения детей:</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Бюджет:<input type="text" id="money-amount" name="money-amount" style="margin-left:20px;border:0; color:#f6931f; font-weight:bold;" /></td>
+                </tr>
+                <tr>
+                    <td><div id="money"></div></td>
+                </tr>
+            </table>
+        </div>
+        <div class="subform">
+            <h2><span>Предпочтения по проживанию</span></h2>
+
+            <table>
+                <tr>
+                    <td>Категория:<input type="text" id="category-val" name="category-val" style="margin-left:20px;border:0; color:#f6931f; font-weight:bold;" /></td>
+                </tr>
+                <tr>
+                    <td><div id="category"></div></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>Питание:</td>
+                    <td>
+                        <select data-placeholder="Выберите тип..." class="chzn-select" id="food" name="food" style="width:450px;" tabindex="1">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table style="width:100%;">
+                <tr class="cbset">
+                    <td>
+                        <input type="checkbox" name="box[]" id="check1" /><label for="check1">&#10004;</label>1-я береговая линия
+                    </td><td>
+                        <input type="checkbox" name="box[]" id="check3" /><label for="check3">&#10004;</label>Центр населенного пункта
+                </td><td>
+                        <input type="checkbox" name="box[]" id="check5" /><label for="check5">&#10004;</label>Корты
+                    </td>
+                </tr>
+                <tr  class="cbset">
+                    <td>
+                        <input type="checkbox" name="box[]" id="check2" /><label for="check2">&#10004;</label>Для семей с детьми
+                    </td><td>
+                        <input type="checkbox" name="box[]" id="check4" /><label for="check4">&#10004;</label>Wifi internet
+                </td><td>
+                        <input type="checkbox" name="box[]" id="check6" /><label for="check6">&#10004;</label>Сауна
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="subform">
+            <h2><span>Контактная инфомрация</span></h2>
+
+            <table id="contact">
+                <tr>
+                    <td>Имя и Фамилия:</td>
+                    <td><input size="70" type="text" id="name" name="name"/></td>
+                </tr>
+                <tr>
+                    <td>E-mail адрес:</td>
+                    <td><input size="70" type="text" id="mail" name="mail"/></td>
+                </tr>
+                <tr>
+                    <td>Телефон:</td>
+                    <td><input size="70" type="text" id="phone" name="phone"/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input style="float:left; margin-right:5px;" type="checkbox" id="subscribe" name="subscribe"/><p style="font-size:12px;padding:2px 0 0 0;margin:0;">Включить меня в рассылку новостей и специальных предложений</p></td>
+                </tr>
+
+            </table>
+
+        </div>
+        <input type="button" id="submit" value="Отправить запрос">
+        </div>
+
+
+    <script type="text/javascript">
+        $( ".cbset" ).buttonset();
+
+        $("#category").slider({
+            range: "min",
+            min: 1,
+            max: 5,
+            value: 3,
+            step:1,
+            animate:"fast",
+            slide: function( event, ui ) {
+                $( "#category-val" ).val( ui.value+ "*" );
+            }
+        });
+        $( "#category-val" ).val($( "#category" ).slider( "value" )+ "*");
+
+        $("#money").slider({
+            range: "min",
+            min: 50,
+            max: 10000,
+            value: 100,
+            step:50,
+            animate:"fast",
+            slide: function( event, ui ) {
+                $( "#money-amount" ).val( "до $" + ui.value );
+            }
+        });
+        $( "#money-amount" ).val( "до $" + $( "#money" ).slider( "value" ));
+
+        $("#duration").slider({
+            range: true,
+            min: 1,
+            max: 60,
+            values: [ 7, 10 ],
+            animate:"fast",
+            slide: function( event, ui ) {
+                $( "#amount" ).val(ui.values[ 0 ] +" - "+ ui.values[ 1 ]+ "  дней"  );
+            }
+        });
+        $( "#amount" ).val($( "#duration" ).slider( "values", 0 ) +" - " + $( "#duration" ).slider( "values", 1 )+ "  дней" );
+
+        $('#children_number').change(function() {
+            if($("#children_number option:selected").val()>0){
+                $("#cb-table").css("display","table");
+            }
+            $("td input[id*=cb-]").parent().remove();
+            for(var i=0;i<$("#children_number option:selected").val();i++){
+                $("#children-birthday").append(
+                        "<td style=\"float:left;\"><input style=\"margin:1px 0 1px 5px;\"type=\"text\" id=\"cb-"+i+"\" name=\"cb-"+i+"\" class=\"datepicker\" /></td>"
+                );}
+            reloadDatepicker();
+        });
+
+        reloadDatepicker();
+
+        function reloadDatepicker(){
+            $( ".datepicker" ).datepicker({
+                showOn: "button",
+                buttonImage: "images/calendar.gif",
+                buttonImageOnly: true
+            });}
+            $(".chzn-select").chosen(); $(".chzn-select-deselect").chosen({allow_single_deselect:true});
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^avia\.sunnyholidays\.by$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.avia\.sunnyholidays\.by$
+RewriteRule ^/?$ "engine\.aviasales\.ru" [R=301,L]
+

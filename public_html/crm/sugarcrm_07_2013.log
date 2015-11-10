@@ -1,0 +1,20 @@
+Mon Jul  1 00:02:12 2013 [84939][-none-][FATAL] SECURITY: User authentication for alena failed
+Mon Jul  1 00:02:12 2013 [84939][-none-][FATAL] FAILED LOGIN:attempts[1] - alena
+Wed Jul  3 01:09:03 2013 [713943][-none-][FATAL] SECURITY: User authentication for vlad failed
+Wed Jul  3 01:09:03 2013 [713943][-none-][FATAL] FAILED LOGIN:attempts[1] - vlad
+Tue Jul  9 13:48:13 2013 [294034][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Jul  9 13:48:19 2013 [294074][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Jul  9 13:48:24 2013 [294126][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Jul  9 13:48:29 2013 [294173][-none-][FATAL] SECURITY: The session ID is invalid
+Tue Jul  9 13:48:30 2013 [294178][-none-][FATAL] SECURITY: The session ID is invalid
+Sun Jul 14 19:34:06 2013 [581394][-none-][FATAL] SECURITY: User authentication for ira failed
+Sun Jul 14 19:34:06 2013 [581394][-none-][FATAL] FAILED LOGIN:attempts[1] - ira
+Sun Jul 14 19:34:12 2013 [581506][-none-][FATAL] SECURITY: User authentication for ira failed
+Sun Jul 14 19:34:12 2013 [581506][-none-][FATAL] FAILED LOGIN:attempts[2] - ira
+Sun Jul 14 19:34:26 2013 [582148][-none-][FATAL] SECURITY: User authentication for irina failed
+Sun Jul 14 19:34:26 2013 [582148][-none-][FATAL] FAILED LOGIN:attempts[3] - irina
+Tue Jul 16 00:51:46 2013 [818782][-none-][FATAL] SECURITY: User authentication for ira failed
+Tue Jul 16 00:51:46 2013 [818782][-none-][FATAL] FAILED LOGIN:attempts[1] - ira
+Wed Jul 17 18:10:52 2013 [1043456][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.242.207 CLIENT IP: 37.212.196.211
+Fri Jul 19 10:03:44 2013 [670157][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.212.196.211 CLIENT IP: 37.45.233.114
+Wed Jul 31 11:05:30 2013 [472147][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.137.14 CLIENT IP: 37.45.17.173

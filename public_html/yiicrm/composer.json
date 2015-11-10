@@ -1,0 +1,13 @@
+{
+    "name" : "CRM",
+    "type" : "library",
+    "authors" : [{
+        "name" : "Vladislav Romanovsky",
+        "email" : "v.romanovsky@itransition.net",
+        "role" : "Developer"
+    }],
+
+    "require" : {
+        "yiisoft/yii" : "dev-master"
+    }
+}

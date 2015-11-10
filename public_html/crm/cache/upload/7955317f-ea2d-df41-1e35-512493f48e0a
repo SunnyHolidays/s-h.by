@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:user="urn:my-scripts"><head>
+		<title>Система бронирования Megatec Master Web Standard :: Лист бронирования</title>
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<meta name="vs_showGrid" content="True">
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+		<meta name="revisit-after" content="2 days">
+		<meta name="ROBOTS" content="ALL">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<style> BODY { FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans serif }
+	TD { FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans serif }
+	.text { FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans serif }
+		</style>
+	</head>
+	<body leftmargin="1" topmargin="0" bottommargin="0" rightmargin="0" bgcolor="#ffffff" marginheight="0" marginwidth="0">
+		<form name="PrintOrderForm" method="post" action="PrintOrder.aspx?dg_code=PB30621007" id="PrintOrderForm">
+<div>
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQxOTAyNDg3M2RkQ8imtP4Z5pJ6y9bff0D5bTQxrwQ=" type="hidden">
+</div>
+
+			<p>
+				</p>
+			<p>
+				</p><div id="PContent">
+	
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>ЛИСТ БРОНИРОВАНИЯ № PB30621007</title>
+  
+  
+    <center><b>
+						ЛИСТ БРОНИРОВАНИЯ № PB30621007</b></center>
+    <table align="center" border="0" cellpadding="5" cellspacing="0" width="80%">
+      <tbody><tr>
+        <td><b>1. Фирма-заказчик</b></td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td width="10%">Фирма:</td>
+              <td width="40%">Санни Холидейз&nbsp;
+									</td>
+              <td width="10%">ФИО:</td>
+              <td width="40%">&nbsp;
+									</td>
+            </tr>
+            <tr>
+              <td width="10%">Адрес:</td>
+              <td width="40%">ул.Кабяка,10, кв.13 (письма)&nbsp;</td>
+              <td width="10%">Телефон:</td>
+              <td width="40%">(152)72 00 221, (152) 75 71 67, (029) 633 35 96, (033) 325 29 50&nbsp;
+									</td>
+            </tr>
+            <tr>
+              <td width="10%">E-mail:</td>
+              <td colspan="3">info@sunnyholidays.by&nbsp;
+									</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td width="20%"><b><nobr>2. Номер бронирования</nobr></b></td>
+              <td>PB30621007</td>
+              <td width="20%"><b>3. Даты тура</b></td>
+              <td>
+										с&nbsp;21.06.2013&nbsp;по&nbsp;
+										02.07.2013</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>4. Название тура:&nbsp;</b>СОЛН. БЕРЕГ 2013 РБ до 28.02 (авиа)</td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td><b>5. Фамилия, Имя</b></td>
+              <td>
+										Номер загран-паспорта
+									</td>
+              <td>
+										Дата рождения
+									</td>
+              <td>
+										Пол
+									</td>
+            </tr>
+            <tr>
+              <td>PANASIK&nbsp;
+												ALIAKSANDR</td>
+              <td>KH&nbsp;№
+												2028178</td>
+              <td>10.02.1971&nbsp;
+										</td>
+              <td>муж.&nbsp;
+										</td>
+            </tr>
+            <tr>
+              <td>PANASIK&nbsp;
+												MARHARYTA</td>
+              <td>KH&nbsp;№
+												2028180</td>
+              <td>01.09.1971&nbsp;
+										</td>
+              <td>жен.&nbsp;
+										</td>
+            </tr>
+            <tr>
+              <td>PANASIK&nbsp;
+												HLEB</td>
+              <td>KH&nbsp;№
+												2028179</td>
+              <td>08.02.1998&nbsp;
+										</td>
+              <td>ребёнок&nbsp;
+										</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>6. Категория отелей:&nbsp;</b>3*</td>
+      </tr>
+      <tr>
+        <td><b>7. Размещение по маршруту тура</b></td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Страна</td>
+              <td>Город</td>
+              <td>Дата заезда</td>
+              <td>Дата выезда</td>
+              <td>Отель</td>
+              <td>Кол-во ночей</td>
+              <td>Тип номера</td>
+              <td>Кол-во человек</td>
+              <td>Питание</td>
+            </tr>
+            <tr>
+              <td>БОЛГАРИЯ</td>
+              <td>СОЛНЕЧНЫЙ БЕРЕГ</td>
+              <td>21.06.2013</td>
+              <td>02.07.2013</td>
+              <td>TRAKIA</td>
+              <td>11</td>
+              <td> DBL&nbsp;
+												 STD&nbsp;
+												2Ad+1Ad (ex.b)</td>
+              <td>3</td>
+              <td>Все включено</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>8. Дополнительно оплаченные услуги</b></td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Ком. сбор::БОЛГАРИЯ/ОБЩИЙ/</td>
+            </tr>
+            <tr>
+              <td>Туристическое обслуж::СОЛНЕЧНЫЙ БЕРЕГ/ТУРИСТИЧЕСКОЕ ОБСЛУЖИВАНИЕ/</td>
+            </tr>
+            <tr>
+              <td>Услуга гида::БОЛГАРИЯ/русскоговорящий гид/</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>9. Экскурсионная программа</b></td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%"></table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>10. Авиаперелеты</b></td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Рейс</td>
+              <td>Дата вылета</td>
+              <td>Дата прилета</td>
+              <td>Время вылета</td>
+              <td>Кол-во человек</td>
+              <td>Маршрут</td>
+              <td>Аэропорт/вокзал</td>
+            </tr>
+            <tr>
+              <td>BRU????</td>
+              <td>21.06.2013</td>
+              <td>21.06.2013</td>
+              <td>00:00&nbsp;
+										</td>
+              <td>3</td>
+              <td>МИНСК&nbsp;-&nbsp;
+											БУРГАС</td>
+              <td>Минск - 2&nbsp;
+										</td>
+            </tr>
+            <tr>
+              <td>BRU????</td>
+              <td>02.07.2013</td>
+              <td>02.07.2013</td>
+              <td>00:00&nbsp;
+										</td>
+              <td>3</td>
+              <td>БУРГАС&nbsp;-&nbsp;
+											МИНСК</td>
+              <td>БУРГАС&nbsp;
+										</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>11. Трансферы по программе тура</b></td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Переезд</td>
+              <td>Дата</td>
+              <td>Транспорт</td>
+            </tr>
+            <tr>
+              <td>Аэропорт - Отель&nbsp;
+										</td>
+              <td>21.06.2013</td>
+              <td>Автобус</td>
+            </tr>
+            <tr>
+              <td>Отель - Аэропорт&nbsp;
+										</td>
+              <td>02.07.2013</td>
+              <td>Автобус</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td><b>12. Услуги, входящие в тур</b></td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td>Проживание</td>
+              <td>Трансфер</td>
+              <td>Авиабилеты</td>
+              <td>Страховка</td>
+              <td>Виза</td>
+            </tr>
+            <tr>
+              <td align="center">+</td>
+              <td align="center">+</td>
+              <td align="center">+</td>
+              <td align="center">-</td>
+              <td align="center">-</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1" cellpadding="5" cellspacing="0" width="100%">
+            <tbody><tr>
+              <td colspan="2" width="50%"><b>Ход бронирования</b></td>
+              <td colspan="2" width="50%"><b>Отметки об оплате</b></td>
+            </tr>
+            <tr>
+              <td rowspan="2" colspan="2">
+										Тур забронирован.<br>
+										Просим внести предоплату до:&nbsp;20.02.2013</td>
+              <td>Полная стоимость услуг</td>
+              <td>1522&nbsp;EU</td>
+            </tr>
+            <tr>
+              <td>Комиссия&nbsp;</td>
+              <td>152&nbsp;EU</td>
+            </tr>
+            <tr>
+              <td width="25%"><b>Дата бронирования</b></td>
+              <td>18.02.2013&nbsp;										
+									</td>
+              <td>К оплате</td>
+              <td>1370&nbsp;EU</td>
+            </tr>
+            <tr>
+              <td width="25%"><b>Полная оплата до</b></td>
+              <td>22.02.2013&nbsp;
+									</td>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="25%"><b>Менеджер</b></td>
+              <td>Авдошко&nbsp;
+										О.М.&nbsp;
+
+									</td>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="25%"><b>Статус заказа</b></td>
+              <td>Ok&nbsp;
+									</td>
+              <td colspan="2">&nbsp;</td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+      </tr>
+    </tbody></table>
+  
+
+</div><p></p>
+		</form>
+	
+
+</body></html>

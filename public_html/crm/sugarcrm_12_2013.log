@@ -1,0 +1,7 @@
+Thu Dec  5 10:18:10 2013 [248867][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.213.191.179 CLIENT IP: 37.213.201.228
+Wed Dec 18 07:01:14 2013 [792021][-none-][FATAL] FAILED LOGIN:attempts[1] - ira
+Wed Dec 18 07:02:03 2013 [795629][-none-][FATAL] FAILED LOGIN:attempts[2] - ira
+Tue Dec 24 00:14:26 2013 [656064][1][FATAL] SMTP -> ERROR: Failed to connect to server. Code: 110 Reply: Connection timed out 
+Tue Dec 24 00:14:26 2013 [656064][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: sergey@sunnyholidays.by
+Tue Dec 24 00:14:26 2013 [656064][1][FATAL] Notifications: error sending e-mail (method: smtp), (error: The following From address failed: sergey@sunnyholidays.by)
+Thu Dec 26 14:13:40 2013 [1042481][efa97795-daa6-8a17-f834-5121f7683581][FATAL] IP Address mismatch: SESSION IP: 37.45.153.72 CLIENT IP: 37.213.175.224
