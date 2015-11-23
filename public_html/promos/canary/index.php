@@ -142,7 +142,7 @@ $preloaded = $bufArray;
                                 <div class="rating"><?= $place['rating'] ?></div>
                             </div>
                             <? $params = '?sd=*0&ed=30.04.2016&sb=A&sr=DBL&t=ITAK&st=PA&sp=4&drf=7&drt=15&ca=A&a=2&hc=' . $place['productCode'] ?>
-                            <a href="http://www.sunnyholidays.by/tours-poland/?ep3[]=<?= urlencode($params) ?>"
+                            <a href="/tours-poland/?ep3[]=<?= urlencode($params) ?>"
                                target="_blank">
                                 <div class="hotel">
                                     <h3 class="hotel-name"><?= $place['title'] ?><sup><?= $place['stars'] ?></sup>

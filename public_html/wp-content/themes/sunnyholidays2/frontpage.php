@@ -19,7 +19,7 @@ Template Name: Главная страница
                 </div>
                 <div class="block2">
                 <div class="title">Специальное предложение</div>
-                <a href="http://www.sunnyholidays.by/promos/canary/"><img src="<?php echo content_url(); ?>/uploads/2015/07/canary-banner.jpg" border="0"></a>    
+                <a href="/promos/canary/"><img src="<?php echo content_url(); ?>/uploads/2015/07/canary-banner.jpg" border="0"></a>
                 </div>
                 <div class="block3"><a target="_blank" href="/promos/tours-of-the-day/"><img src="<?php echo get_template_directory_uri(); ?>/img/img2.png">
                     <p class="line1">Объявлен сезон охоты за СКИДКАМИ!</p>
