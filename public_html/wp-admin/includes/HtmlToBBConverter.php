@@ -7,16 +7,15 @@ class HtmlToBBConverter
     function __construct()
     {
         $this->equivalents = array(
-            new Equivalent('/\<br\>/', '[br]', '/\<\/br\>/', '[/br]'),
             new Equivalent('/\<em\>/', '[i]', '/\<\/em\>/', '[/i]'),
             new Equivalent('/\<code\>/', '[code]', '/\<\/code\>/', '[/code]'),
             new Equivalent('/\<address\>/', '[address]', '/\<\/address\>/', '[/address]'),
             new Equivalent('/\<b\>/', '[b]', '/\<\/b\>/', '[/b]'),
             new Equivalent('/\<i\>/', '[i]', '/\<\/i\>/', '[/i]'),
             new Equivalent('/\<strong\>/', '[b]', '/\<\/strong\>/', '[/b]'),
-            new Equivalent('/\<h1\>/', '[b]', '/\<\/h1\>/', '[/b]'),
-            new Equivalent('/\<h2\>/', '[b]', '/\<\/h2\>/', '[/b]'),
-            new Equivalent('/\<h3\>/', '[b]', '/\<\/h3\>/', '[/b]'),
+            new Equivalent('/\<h1\>/', '[size=16pt][b]', '/\<\/h1\>/', '[/b][/size]'),
+            new Equivalent('/\<h2\>/', '[size=14pt][b]', '/\<\/h2\>/', '[/b][/size]'),
+            new Equivalent('/\<h3\>/', '[size=12pt][b]', '/\<\/h3\>/', '[/b][/size]'),
             new Equivalent('/\<h4\>/', '[b]', '/\<\/h4\>/', '[/b]'),
             new Equivalent('/\<h5\>/', '[b]', '/\<\/h5\>/', '[/b]'),
             new Equivalent('/\<h6\>/', '[b]', '/\<\/h6\>/', '[/b]'),
@@ -33,8 +32,8 @@ class HtmlToBBConverter
             new Equivalent('/\<p\s+style="text-align:\s*center;"\s*\>/', '[right]', '/\<\/p\>/', '[/right]'),
             new Equivalent('/\<p\s+style="text-align:\s*justify;"\s*\>/', '[right]', '/\<\/p\>/', '[/right]'),
             new Equivalent('/\<span\s+style="color:\s*(?<colorName>#*[a-zA-Z0-9\,\.\(\)%\s]+);"\>/', "[color]", '/\<\/span\>/', '[/color]'),
-            new Equivalent('/\<a\s+href="(?<urlName>[a-zA-Z0-9\._-à-ÿÀ-ß:\/\/\\\\#\?=]+)"(\s*title="(?<titleName>([^"]*))")?(\s*[^\>]+)*\>/', "[url]", '/\<\/a\>/', '[/url]'),
-            new Equivalent('/\<img\s+src="(?<imgUrlName>[^"]+)"(\s+alt="(?<altName>([^"]*))")?(\s*[^\>]+)*(\s*\/\s*)\>/', '[img]', '', '')
+            new Equivalent('/\<a(\s+((href="(?<urlName>[^"]+)")|(title="(?<titleName>[^"]+)")|([a-z]+="[^"]*")))+\s*\>/', "[url]", '/\<\/a\>/', '[/url]'),
+            new Equivalent('/\<img(\s+((src="(?<imgUrlName>[^"]*)")|([a-z]+="[^"]*")))+(\s*\/*\s*)\>/', '[img]', '', '')
         );
     }
 
@@ -59,7 +58,7 @@ class HtmlToBBConverter
                     $bbOpenTag = $bbOpenTag . $openMatches['imgUrlName'][0] . '[/img]';
                 }
                 if ($equivalent->getBbCloseTag() && strlen($equivalent->getBbCloseTag()) > 0) {
-                    preg_match($equivalent->getHtmlCloseTag(), $bb, $closeMatches, PREG_OFFSET_CAPTURE, $openIndex + strlen($bbOpenTag));
+                    preg_match($equivalent->getHtmlCloseTag(), $bb, $closeMatches, PREG_OFFSET_CAPTURE, $openIndex + strlen($openTag));
                     $closeIndex = $closeMatches[0][1];
                     $closeTag = $closeMatches[0][0];
                     $bb = substr_replace($bb, $equivalent->getBbCloseTag(), $closeIndex, strlen($closeTag));
