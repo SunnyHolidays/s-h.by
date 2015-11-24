@@ -41,6 +41,7 @@ class HtmlToBBConverter
     {
         $bb = $html;
         $bb = preg_replace('/\[[^\]]+\]/', '', $bb);
+        $bb = preg_replace('/\<ins[^\>]*\>/', '', $bb);
         foreach ($this->equivalents as $equivalent) {
             $searchPosition = 0;
             while (preg_match($equivalent->getHtmlOpenTag(), $bb, $openMatches, PREG_OFFSET_CAPTURE, $searchPosition)) {
